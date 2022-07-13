@@ -1,0 +1,49 @@
+{
+  "Id": 1,
+  "Beers": [
+    {
+      "Id": 1,
+      "Name": "Ipa Sweet Draft",
+      "Brand": "IpaCo",
+      "Image": "",
+      "Category": "Draft",
+      "Tags": [
+        "Sweet",
+        "Sour",
+        "Dark"
+      ],
+      "Price": 3.50,
+      "Details": "Sweet and sour Ipa draft beer. Dark beer that was made by IpaCO",
+      "ListedSince": "2022-12-23"
+    },
+    {
+      "Id": 2,
+      "Name": "Serbian Pale Ale",
+      "Brand": "SrbAle",
+      "Image": "",
+      "Category": "Bottled",
+      "Tags": [
+        "Strong",
+        "Pale Ale"
+      ],
+      "Price": 2.50,
+      "Details": "Strong Pale Ale. Bottled and produced by SrbAle",
+      "ListedSince": "2019-01-01"
+    },
+    {
+      "Id": 3,
+      "Name": "Lager Pilsner",
+      "Brand": "Pilsner",
+      "Image": "",
+      "Category": "Bottled",
+      "Tags": [
+        "Filtered",
+        "Mild",
+        "Lager"
+      ],
+      "Price": 2.20,
+      "Details": "Great lager beer from Pilsner production. Filtered and Mild.",
+      "ListedSince": "2020-05-23"
+    }
+  ]
+}

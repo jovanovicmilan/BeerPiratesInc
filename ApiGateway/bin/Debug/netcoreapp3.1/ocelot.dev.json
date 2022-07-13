@@ -1,0 +1,24 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post" ]
+    }
+    
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:5021"
+  }
+
+}
+
+//      "DownstreamPathTemplate": "/beerrecomendation/{id}",
+//      "UpstreamPathTemplate": "/api/beer/{id}",
